@@ -1,0 +1,159 @@
+html, body {
+    width: 99.7%;
+    height: 99.7%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    border: 5px solid red;
+}
+
+.outer-main-div{
+    display: flex;
+    height: 100%;
+    border: 2px solid green;
+    flex: 1;
+}
+
+.inner-main-div{
+    display: flex;
+    border: 2px solid blue;
+    /* flex: 1; */
+    height: 100%;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-inner{
+    margin: 10px;
+    border: 2px solid brown;
+}
+
+.left-inner-up{
+    height: 50px;
+    border-radius: 5px;
+}
+
+.left-inner-mid{
+    height: 250px;
+    border-radius: 5px;
+}
+
+.inside-left-mid{
+    border: 2px solid yellow;
+    margin: 5px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.left-inner-down{
+    height: 500px;
+    border-radius: 5px;
+}
+
+.inside-left-down{
+    border: 2px solid yellow;
+    margin: 5px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.right{
+    flex: 5;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-inner{
+    margin: 10px;
+    border: 2px solid brown;
+}
+
+.right-inner-up{
+    flex: 1;
+    /* height: 50px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inside-right-up{
+    border: 2px solid blue;
+    margin: 3px;
+    /* width: 50px; */
+}
+
+.inside-right-up-1{
+    /* flex: 1; */
+    height: 90%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.inside-right-up-box{
+    width: 40px;
+    height: 60%;
+    border: 2px solid yellow;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+.inside-right-up-2{
+    width: 300px;
+    height: 50%;
+    /* align-items: center; */
+    /* line-height: 1vh; */
+}
+
+.right-inner-down{
+    flex: 15;
+    /* height: 250px; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inside-right-down{
+    margin: 10px;
+    border: 2px solid blue;
+    height: 70px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.inside-right-down-final{
+    border: 2px solid pink;
+    margin: 2px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.inside-right-down-1{
+    flex: 1;
+}
+
+.inside-right-down-2{
+    flex: 1;
+}
+
+.inside-right-down-3{
+    flex: 10;
+}
+
+.inside-right-down-4{
+    flex: 30;
+}
+
+.inside-right-down-5{
+    flex: 6;
+}
