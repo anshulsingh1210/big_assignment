@@ -1,0 +1,295 @@
+html, body {
+    width: 99.7%;
+    height: 99.7%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    border: 5px solid red;
+}
+
+/* Global Styling */
+.dark{
+    background-color: black; 
+}
+
+.selected{
+    border: 2px solid darkred !important;
+}
+
+.outer-main-div {
+    display: flex;
+    /* flex-direction: column; */
+    height: 100%;
+    border: 2px solid green;
+    /* flex-direction: ; */
+}
+
+.main{
+    border: 2px solid red;
+}
+
+.left{
+    flex: 1;
+}
+
+.inside-left{
+    border: 1px solid blue;
+    
+}
+
+.left-1{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-1-1{
+    border: 1px solid pink;
+    height: 40%;
+    margin-left: 10px;
+    width: 30%;
+}
+
+.left-2{
+    height: 1125px;
+    /* display: flex; */
+    /* align-items: center; */
+    
+}
+
+.left-2-1, .left-2-2{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.left-2-2{
+    border: none;
+}
+
+.left-2-1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.left-2-2{
+    height: 1000px;
+}
+
+.inside-left-2-2{
+    border: 1px solid pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-2-2-1-1{
+    border: none;
+}
+
+.left-2-2-1-1, .left-2-2-1-2{
+    border: 1px solid purple;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-2-2-1-1{
+    border: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.left-2-2-1-1-1, .left-2-2-1-1-2, .left-2-2-1-1-3{
+    border: 1px solid purple;
+    /* mar */
+    border-radius: 5px;
+
+}
+
+.left-2-2-1-1-1 , .left-2-2-1-1-2{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.left-2-2-1-1-3{
+    flex: 10;
+}
+
+.left-2-2-1-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-2-2-1-2{
+    width: 70%;
+}
+
+.mid{
+    flex: 4;
+}
+
+.mid-1, .mid-2{
+    border: 1px solid blue;
+}
+
+.mid-1{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-mid-1{
+    height: 70%;
+    width: 40px;
+    border: 1px solid pink;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+
+.mid-2{
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-mid-2{
+    border: 1px solid pink;
+    width: 45%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.mid-2-1, .mid-2-2, .mid-2-3, .mid-2-4{
+    border: 1px solid blue;
+    /* margin-top: 15px; */
+    /* flex: 1; */
+    margin-left: 30px;
+}
+
+.mid-2-1{
+    height: 20px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.mid-2-2, .mid-2-3{
+    height: 50px;
+    width: 89%;
+    border-radius: 10px;
+}
+
+.mid-2-4{
+    height: 40px;
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-2-4-1, .mid-2-4-2{
+    border: 1px solid pink;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.mid-2-4-1{
+    margin-right: 10px;
+    /* border-radius: 10px; */
+}
+
+.right{
+    flex: 1;
+    /* color: white; */
+    /* display: flex; */
+}
+
+.inside-right{
+    border: 1px solid blue;
+    
+}
+
+.right-1{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-1-1{
+    border: 1px solid pink;
+    height: 40%;
+    margin-left: 10px;
+    width: 30%;
+}
+
+.right-2{
+    height: 1125px;
+    /* display: flex; */
+    /* align-items: center; */
+    
+}
+
+.right-2-1, .right-2-2, .right-2-3{
+    border: 1px solid pink;
+    height: 80px;
+    margin: 10px;
+}
+
+.right-2-1-1, .right-2-1-2{
+    border: 1px solid skyblue;
+
+}
+
+.right-2-1-1{
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.right-2-1-2{
+    /* width: ; */
+    height: 40px;
+}
+
+.right-2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-2-3-1, .right-2-3-2{
+    border: 1px solid greenyellow;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-2-3-1-1, .right-2-3-1-2{
+    border: 1px solid red;
+
+}
+
+.right-2-3-1-1{
+    width: 90px;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.right-2-3-1-2{
+    width: 40px;
+    /* height: 70%; */
+    border-radius: 12px;
+}
