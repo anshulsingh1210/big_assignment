@@ -109,9 +109,6 @@ html, body {
     flex: 6;
 }
 
-.right-nav, .right-body{
-    /* border: 1px solid grey */
-}
 
 .right-nav{
     height: 80px;

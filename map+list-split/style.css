@@ -6,19 +6,19 @@ html, body {
 }
 
 body{
-    border: 5px solid red;
+    border: 2px solid lightgrey;
 }
 
 .outer-main-div {
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 2px solid green;
+    /* border: 2px solid lightgrey; */
     /* flex-direction: ; */
 }
 
 .navbar{
-    border: 2px solid red;
+    /* border: 2px solid ; */
     /* flex: 1; */
     height: 80px;
     display: flex;
@@ -27,7 +27,8 @@ body{
 }
 
 .inside-navbar{
-    border: 1px solid green;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
     height: 50%;
     display: flex;
     margin-top: 18px;
@@ -36,7 +37,8 @@ body{
 .navbar-1{
     margin-left: 20px;
     width: 200px;
-    border-radius: 8px
+    border-radius: 8px;
+    background-color: black;
 }
 
 .navbar-2{
@@ -57,20 +59,20 @@ body{
 }
 
 .bodybar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 1150px;
     display: flex;
 }
 
 .bodybar-left{
     flex: 1;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
 }
 
 .bodybar-left-child{
-    border: 1px solid blue;
+    border: 1px solid lightgrey;
 }
 
 .bodybar-left-child-1{
@@ -81,7 +83,8 @@ body{
 
 .body-left-child-1{
     height: 70%;
-    border: 1px solid yellowgreen;
+    border: 1px solid lightgrey;
+    background-color: lightgray;
     width: 80px;
     margin-left: 20px;
     border-radius: 18px;
@@ -99,27 +102,29 @@ body{
     width: 90%;
     margin-left: 30px;
     margin-top: 20px;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     height: 300px;
     display: flex;
 }
 
 .body-left-child-2-1{
     flex: 1;
-    border: 1px solid pink;
+    border: 1px solid lightgray;
+    background-color: lightgray;
     border-radius: 8px;
     margin-right: 5px;
 }
 
 .body-left-child-2-2{
-    flex: 1;
-    border: 1px solid pink;
+    flex: 2;
+    /* border: 1px solid lightgrey; */
     position: relative;
     
 }
 
 .body-left-child-2-2-child{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    background-color: lightgray;
     margin-left: 15px;
     margin-top: 10px;
 }
@@ -127,16 +132,19 @@ body{
 .body-left-child-2-2-child-1{
     width: 120px;
     height: 20px;
+    background-color: rgb(220, 219, 219)
 }
 
 .body-left-child-2-2-child-2{
     width: 190px;
     height: 30px;
+    background-color: rgb(230, 228, 228)
 }
 
 .body-left-child-2-2-child-3{
     width: 120px;
     height: 20px;
+    background-color: rgb(241, 239, 239)
 }
 
 .body-left-child-2-2-child-4{
@@ -148,12 +156,14 @@ body{
 
 .bodybar-right{
     flex: 1;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     position: relative;
+    background-color: lightgrey;
 }
 
 .right-block-5{
-    border: 2px solid blue;
+    /* border: 2px solid lightgray; */
+    background-color: black;
     position: absolute;
     bottom: 0px;
     right: 150px;
@@ -163,7 +173,8 @@ body{
 }
 
 .right-block-4{
-    border: 2px solid blue;
+    /* /* border: 2px solid lightgray; */
+    background-color: white; 
     position: absolute;
     bottom: 80px;
     left: 250px;
@@ -173,7 +184,9 @@ body{
 }
 
 .right-block-3{
-    border: 2px solid blue;
+    /* border: 2px solid lightgray;
+    background-color: lightgray; */
+    background-color: white; 
     position: absolute;
     top: 250px;
     right: 300px;
@@ -183,7 +196,9 @@ body{
 }
 
 .right-block-2{
-    border: 2px solid blue;
+    /* border: 2px solid lightgray;
+    background-color: lightgray; */
+    background-color: white; 
     position: absolute;
     top: 170px;
     left: 300px;
@@ -193,7 +208,7 @@ body{
 }
 
 .right-block-1{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     position: absolute;
     top: 50px;
     left: 80px;
@@ -206,13 +221,17 @@ body{
 
 .right-block-1-1{
     flex: 1;
-    border: 1px solid black;
+    /* border: 1px solid lightgrey; */
+    /* background-color: lightgrey; */
+    background-color: white; 
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
 .right-block-1-2{
     flex: 1;
-    border: 1px solid black;
+    /* border: 1px solid lightgrey; */
+    /* background-color: lightgrey; */
+    background-color: white; 
     border-radius: 10px;
 }
