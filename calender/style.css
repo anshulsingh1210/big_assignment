@@ -5,9 +5,9 @@ html, body {
     margin: 0;
 }
 
-body{
+/* body{
     border: 5px solid red;
-}
+} */
 
 /* Global Styling */
 .dark{
@@ -21,7 +21,7 @@ body{
 }
 
 .left, .right{
-    border: 2px solid green;
+    border: 2px solid grey;
     height: 100%;
 }
 
@@ -31,11 +31,11 @@ body{
 
 .left-up{
     height: 350px;
-    border-bottom: 1px solid blue;
+    /* border-bottom: 1px solid grey; */
 }
 
 .left-up-1, .left-up-2{
-    border: 1px solid magenta;
+    /* border: 1px solid grey; */
     margin-left: 10px;
 }
 
@@ -44,6 +44,7 @@ body{
     height: 40px;
     margin-top: 25px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .left-up-2{
@@ -67,16 +68,20 @@ body{
 
 .left-down{
     height: 250px;
-    border: 1px solid blue;
+    margin: 10px;
+    border-top: 1px solid grey;
 }
 
 .left-down-1, .left-down-2{
-    border: 1px solid lightgreen;
+    
+    border-radius: 4px;
     margin: 10px;
     margin-top: 20px;
 }
 
 .left-down-1{
+    border: 1px solid grey;
+    background-color: grey;
     width: 30%;
 }
 
@@ -87,25 +92,25 @@ body{
 }
 
 .left-down-2-1{
-    border: 1px solid lightgreen;
+    border: 1px solid grey;
+    background-color: grey;
     width: 10px;
     margin-right: 5px;
 }
 
 .left-down-2-2{
-    border: 1px solid lightgreen;
+    border: 1px solid lightgrey;
+    background-color: lightgray;
     width: 100px;
     /* height: 50px; */
 }
-
-
 
 .right{
     flex: 6;
 }
 
 .right-nav, .right-body{
-    border: 1px solid blue
+    /* border: 1px solid grey */
 }
 
 .right-nav{
@@ -115,7 +120,7 @@ body{
 }
 
 .inside-right-nav-up, .inside-right-nav-down{
-    border: 1px solid pink;
+    /* border: 1px solid ; */
     flex: 1;
 }
 
@@ -126,7 +131,8 @@ body{
 }
 
 .inside-right-nav-up-1, .inside-right-nav-up-2, .inside-right-nav-up-3{
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
+    background-color: lightgrey;
     height: 40px;
     margin-left: 20px;
     border-radius: 8px;
@@ -148,7 +154,7 @@ body{
 }
 
 .inside-right-nav-down-1{
-    border: 1px solid darkmagenta;
+    /* border: 1px solid lightgrey; */
     width: 250px;
     height: 45px;
     margin-right: 10px;
@@ -158,7 +164,7 @@ body{
 }
 
 .inside-right-nav-down-1-1{
-    border: 1px solid lightgreen;
+    /* border: 1px solid lightgrey; */
     width: 40%;
     height: 80%;
     margin-left: 5px;
@@ -172,12 +178,12 @@ body{
 
 .right-left{
     flex: 1;
-    border: 1px solid magenta;
+    border: 1px solid lightgrey;
 }
 
 .inside-right-left{
     height: 95px;
-    border-bottom: 1px solid darkred;
+    border-bottom: 1px solid lightgrey;
     display: flex;
     justify-content: flex-end;
     padding-right: 8px;
@@ -186,18 +192,18 @@ body{
 
 .right-right{
     flex: 15;
-    border: 1px solid magenta;
+    border: 1px solid lightgrey;
     display: flex;
 }
 
 .inside-right-right{
     flex: 1;
-    border-right: 1px solid darkred;
+    border-right: 1px solid lightgrey;
 }
 
 .inside-right-right-1{
     height: 70px;
-    border: 1px solid darkred;
+    border: 1px solid lightgrey;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,7 +226,8 @@ body{
 }
 
 .inside-right-right-1_2{
-    border: 1px solid blue;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
     margin-top: 50px;
     height: 80px;
     /* margin-top: ; */
@@ -231,7 +238,7 @@ body{
 }
 
 .inside-right-right-1_3{
-    border: 1px solid blue;
+    border: 1px solid lightgrey;
     margin-top: 130px;
     height: 50px;
     /* margin-top: ; */
@@ -242,7 +249,8 @@ body{
 }
 
 .inside-right-right-1_4{
-    border: 1px solid blue;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
     margin-top: 30px;
     height: 120px;
     /* margin-top: ; */
