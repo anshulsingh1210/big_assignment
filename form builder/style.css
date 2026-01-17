@@ -6,28 +6,28 @@ html, body {
 }
 
 body{
-    border: 5px solid red;
+    /* border: 5px÷ solid red; */
 }
 
 /* Global Styling */
 .dark{
-    background-color: black; 
+    background-color: black !important; 
 }
 
 .selected{
-    border: 2px solid darkred !important;
+    border: 2px solid black !important;
 }
 
 .outer-main-div {
     display: flex;
     /* flex-direction: column; */
     height: 100%;
-    border: 2px solid green;
+    border: 1px solid grey;
     /* flex-direction: ; */
 }
 
 .main{
-    border: 2px solid red;
+    border: 1px solid grey;
 }
 
 .left{
@@ -35,7 +35,7 @@ body{
 }
 
 .inside-left{
-    border: 1px solid blue;
+    border: 1px solid grey;
     
 }
 
@@ -47,10 +47,12 @@ body{
 }
 
 .left-1-1{
-    border: 1px solid pink;
+    border: 1px solid grey;
+    background-color: grey;
     height: 40%;
     margin-left: 10px;
     width: 30%;
+    border-radius: 5px;
 }
 
 .left-2{
@@ -62,6 +64,7 @@ body{
 
 .left-2-1, .left-2-2{
     border: 1px solid black;
+    /* background-color: black; */
     margin: 10px;
 }
 
@@ -81,13 +84,14 @@ body{
 }
 
 .inside-left-2-2{
-    border: 1px solid pink;
+    border: 1px solid grey;
     margin-top: 10px;
     margin-bottom: 10px;
     height: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 5px;
 }
 
 .left-2-2-1-1{
@@ -95,7 +99,7 @@ body{
 }
 
 .left-2-2-1-1, .left-2-2-1-2{
-    border: 1px solid purple;
+    border: 1px solid grey;
     height: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -108,7 +112,8 @@ body{
 }
 
 .left-2-2-1-1-1, .left-2-2-1-1-2, .left-2-2-1-1-3{
-    border: 1px solid purple;
+    /* border: 1px solid grey; */
+    background-color: grey;
     /* mar */
     border-radius: 5px;
 
@@ -130,6 +135,8 @@ body{
 
 .left-2-2-1-2{
     width: 70%;
+    background-color: grey;
+    border-radius: 5px;
 }
 
 .mid{
@@ -137,7 +144,7 @@ body{
 }
 
 .mid-1, .mid-2{
-    border: 1px solid blue;
+    border: 1px solid grey;
 }
 
 .mid-1{
@@ -150,9 +157,10 @@ body{
 .inside-mid-1{
     height: 70%;
     width: 40px;
-    border: 1px solid pink;
+    border: 1px solid grey;
     margin: 8px;
     border-radius: 10px;
+    background-color: grey;
 }
 
 
@@ -164,7 +172,7 @@ body{
 }
 
 .inside-mid-2{
-    border: 1px solid pink;
+    border: 1px solid grey;
     width: 45%;
     height: 30%;
     border-radius: 10px;
@@ -175,10 +183,11 @@ body{
 }
 
 .mid-2-1, .mid-2-2, .mid-2-3, .mid-2-4{
-    border: 1px solid blue;
+    border: 1px solid grey;
     /* margin-top: 15px; */
     /* flex: 1; */
     margin-left: 30px;
+    background-color: grey;
 }
 
 .mid-2-1{
@@ -198,10 +207,13 @@ body{
     width: 89%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    border: none;
 }
 
 .mid-2-4-1, .mid-2-4-2{
-    border: 1px solid pink;
+    border: 1px solid grey;
+    background-color: grey;
     flex: 1;
     border-radius: 10px;
 }
@@ -218,7 +230,7 @@ body{
 }
 
 .inside-right{
-    border: 1px solid blue;
+    border: 1px solid grey;
     
 }
 
@@ -230,7 +242,9 @@ body{
 }
 
 .right-1-1{
-    border: 1px solid pink;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 5px;
     height: 40%;
     margin-left: 10px;
     width: 30%;
@@ -244,19 +258,22 @@ body{
 }
 
 .right-2-1, .right-2-2, .right-2-3{
-    border: 1px solid pink;
+    /* border: 1px solid grey; */
     height: 80px;
     margin: 10px;
 }
 
 .right-2-1-1, .right-2-1-2{
-    border: 1px solid skyblue;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 4px;
 
 }
 
 .right-2-1-1{
     width: 30%;
     margin-bottom: 15px;
+
 }
 
 .right-2-1-2{
@@ -271,14 +288,15 @@ body{
 }
 
 .right-2-3-1, .right-2-3-2{
-    border: 1px solid greenyellow;
+    /* border: 1px solid grey; */
     height: 25px;
     display: flex;
     justify-content: space-between;
 }
 
 .right-2-3-1-1, .right-2-3-1-2{
-    border: 1px solid red;
+    border: 1px solid grey;
+    background-color: grey;
 
 }
 
