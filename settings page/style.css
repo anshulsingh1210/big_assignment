@@ -5,21 +5,21 @@ html, body {
     margin: 0;
 }
 
-body{
-    border: 5px solid red;
-}
+/* body{ */
+    /* border: 5px solid red; */
+/* } */
 
 .outer-main-div {
     display: flex;
     /* flex-direction: column; */
     height: 100%;
-    border: 2px solid green;
+    border: 2px solid grey;
     /* flex-direction: ; */
 }
 
 .left{
     flex: 1;
-    border: 2px solid red;
+    border: 2px solid grey;
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +27,8 @@ body{
 .left-up{
     height: 60px;
     margin: 20px;
-    border: 2px solid blue;
+    /* border: 2px solid grey; */
+    background-color: lightgrey;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -38,13 +39,14 @@ body{
     height: 40%;
     width: 85%;
     /* display: flex; */
-    border: 2px solid skyblue;
+    border: 2px solid grey;
+    background-color: grey;
 
 }
 
 .left-down{
     height: 1200px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -54,7 +56,7 @@ body{
     height: 70px;
     width: 99%;
     /* display: flex; */
-    border: 2px solid skyblue;
+    /* border: 2px solid skyblue; */
     /* background-color: rgb(243, 247, 250); */
     display: flex;
     align-items: center;
@@ -68,9 +70,9 @@ body{
 }
 
 .left-down-content{
-    height: 50%;
+    height: 30%;
     width: 50%;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     margin-left: 10px;
     border-radius: 10px;
     background-color: rgb(238, 235, 230);
@@ -86,19 +88,20 @@ body{
 
 .right{
     flex: 6;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .right-up{
     height: 80px;
-    border: 2px solid blue;
+    border-bottom: 2px solid grey;
     display: flex;
     align-items: center;
 }
 
 .inside-right-up{
     height: 30%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
+    background-color: grey;
     margin-left: 20px;
     width: 120px;
 }
@@ -106,13 +109,14 @@ body{
 .right-down{
     height: 1100px;
     width: 60%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 .inside-right-down{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     margin: 20px;
     height: 200px;
 }
@@ -120,31 +124,33 @@ body{
 .right-down-1, .right-down-2{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid blue; */
+    /* border: grey; */
+    border-bottom: 1px solid grey;
     /* margin-left: 10px; */
 }
 
 .right-down-1-1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 20px;
     flex: 1;
 }
 
 .right-down-1-2{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 20px;
     flex: 1;
 }
 
 .right-down-1-2-1, .right-down-1-2-2{
-    border: 1px solid pink;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
     height: 25%;
     margin: 20px;
     border-radius: 6px;
 }
 
 .right-down-1-1-1, .right-down-1-1-2, .right-down-1-1-3{
-    border: 1px solid pink;
+    
     height: 20%;
     margin: 10px;
 }
@@ -153,6 +159,8 @@ body{
     width: 40%;
     height: 15%;
     border-radius: 5px;
+    border: 1px solid grey;
+    background-color: grey;
 }
 
 .right-down-1-1-2{
@@ -160,7 +168,8 @@ body{
 }
 
 .right-down-1-1-2-1, .right-down-1-1-2-2{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    background-color: lightgrey;
     border-radius: 5px;
 }
 
@@ -181,7 +190,7 @@ body{
 }
 
 .right-down-2-2{
-    border: 1px solid blue;
+    /* border: 1px solid grey; */
     margin: 20px;
     flex: 1;
     display: flex;
@@ -193,11 +202,16 @@ body{
 .right-down-2-2-1, .right-down-2-2-2{
     width: 10%;
     height: 25px;
-    border: 1px solid green;
+    border: 1px solid grey;
+    background-color: grey;
     border-radius: 12px;
     margin-bottom: 25px;
     margin-right: 15px;
     /* fle */
+}
+
+.right-down-2-2-2{
+    background-color: black;
 }
 
 .right-down-3{
@@ -207,7 +221,8 @@ body{
 }
 
 .right-down-3-1, .right-down-3-2{
-    border: 1px solid blue;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
     height: 20%;
     width: 90px;
     height: 35px;
@@ -215,3 +230,6 @@ body{
     border-radius: 8px;
 }
 
+.right-down-3-2{
+    background-color: black;
+}
