@@ -1,0 +1,202 @@
+html {
+    height: 100%;
+}
+
+body{
+    background-color: white;
+            margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height:40px;
+    background-color: #404040;
+    width:90px;
+    border-radius: 5px;
+}
+.search-bar{
+    width:42%;
+    background-color: #262626;
+    border-radius: 5px;
+}
+.header-buttons{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.header-button{
+    height:30px;
+    width:30px;
+    border-radius: 5px;
+    background-color: #404040;
+}
+main{
+
+    display:flex;
+    width:100%;
+    padding:10px;
+    /* border:3px solid blue; */
+    /* padding:10px; */
+    /* height:calc(100vh - 60px); */
+    flex:1;
+    /* height:100vh; */
+    /* background-color: yellow; */
+    
+}
+header{
+    background-color: black;
+    height:40px;
+    /* border:5px solid orange; */
+    display:flex;
+    gap:10px;
+    padding:10px;
+    padding-left: 20px;
+}
+.left-section{
+    height:100%;
+    display:flex;
+    width:50%;
+    /* border:2px solid red; */
+    padding:10px;
+    border-right: 1px solid #e5e5e5;
+}
+.right-section
+{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    /* border:2px solid green; */
+    gap:5px;
+}
+.thumbnail-list{
+    width:10%;
+    /* border:2px solid purple; */
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    /* height:100%; */
+}
+.thumbnail{
+    height:80px;
+    width:80px;
+    /* margin:10px; */
+    /* width:20px; */
+    /* height:20px; */
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    /* border:5px solid green; */
+}
+.image-preview{
+    margin-bottom: 20px;
+    flex:1;
+    /* border:2px solid black; */
+    padding:5px;
+    padding-left: 10px;
+    /* height:100vh; */
+    /* background-color: #e5e5e5; */
+}
+.big-image{
+    width:100%;
+    height:100%;
+    /* aspect-ratio: 1/1; */
+    border:2p solid black;
+    background-color: #e5e5e5;
+}
+.product-description{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:5px;
+    /* border : 2px solid black; */
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom:15px;
+}
+.product-name{
+    height:20px;
+    width:100px;
+    border-radius: 5px;
+    background-color: #e5e5e5;;
+}
+.product-info{
+background-color: #e5e5e5;
+border-radius: 5px;
+height:35px;
+width:100%;
+}
+.product-price{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:5px;
+    /* border :2px solid black; */
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+.price{
+    height:40px;
+    width:150px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+.color-options{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding :5px;
+    /* border :2px solid black; */
+    /* border-bottom: 2px solid black; */
+}
+.color-option-list{
+    display:flex;
+    gap:5px;
+}
+.color-option-box{
+    height:40px;
+    width:40px;
+    background-color: #e5e5e5;
+    border-radius:5px;
+
+}
+.size-options{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding :5px;
+    /* border :2px solid black; */
+    /* border-bottom: 2px solid black; */
+}
+.size-option-list{
+    display:flex;
+    gap:5px;
+}
+.size-option-box{
+    height:40px;
+    width:40px;
+    border : 1px solid #e5e5e5;
+    background-color: white;
+    border-radius:5px;
+
+}
+.action{
+    display:flex;
+    gap:10px;
+    padding :5px;
+    /* border :2px solid black; */
+}
+.buy-now{
+    height:50px;
+    width:95%;
+    background-color: black;
+    border-radius: 4px;
+
+}
+.add-to-cart{
+        height:50px;
+        width:50px;
+        background-color: #e5e5e5;
+        border-radius: 4px;
+}
